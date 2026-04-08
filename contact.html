@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact — Fantastic Removals</title>
+    <meta name="description" content="Get a free quote for removals across London and the UK. We respond within 30 minutes during working hours." />
+    <link rel="icon" href="../public/favicon.svg" />
+    <link rel="stylesheet" href="./assets/styles.css" />
+  </head>
+  <body>
+    <div class="site">
+      <header class="navbar">
+        <div class="container navbar-inner">
+          <a class="brand" href="./index.html" aria-label="Fantastic Removals home">
+            <span class="brand-mark">FR</span>
+            <span>Fantastic<b>Removals</b></span>
+          </a>
+
+          <nav class="nav-links" aria-label="Primary">
+            <a data-nav href="./services.html">Services</a>
+            <a data-nav href="./how-it-works.html">How it Works</a>
+            <a data-nav href="./reviews.html">Reviews</a>
+            <a data-nav href="./faq.html">FAQ</a>
+          </nav>
+
+          <div class="nav-right">
+            <div class="nav-phone" aria-label="Phone">
+              <small>Call</small>
+              <span>0203 404 4440</span>
+            </div>
+            <a class="btn" href="./contact.html">Get a Quote</a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="page-hero">
+          <div class="container">
+            <h1>Get a Free Quote</h1>
+            <p>Fill in the form below or give us a call — we'll get back to you within 30 minutes.</p>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="container">
+            <div class="split" style="align-items:start;">
+              <div>
+                <h2 style="font-family: var(--font-serif); margin: 0 0 6px;">Contact Information</h2>
+                <p style="margin:0 0 16px; color: rgba(71,85,105,.95);">
+                  Ready to make your move? Get in touch and we'll handle the rest.
+                </p>
+
+                <div style="display:grid; gap: 12px;">
+                  <div class="card" style="padding: 16px; background: rgba(148,163,184,.10);">
+                    <div style="display:flex; gap: 12px; align-items:flex-start;">
+                      <div class="icon">☎</div>
+                      <div>
+                        <div style="font-size: 12px; color: rgba(71,85,105,.95); font-weight: 800;">Phone</div>
+                        <div style="font-weight: 900;">0203 404 4440</div>
+                        <div style="font-size: 12px; color: rgba(71,85,105,.95); font-weight: 700;">Mon–Sat: 8am – 8pm, Sun: 9am – 5pm</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card" style="padding: 16px; background: rgba(148,163,184,.10);">
+                    <div style="display:flex; gap: 12px; align-items:flex-start;">
+                      <div class="icon">✉</div>
+                      <div>
+                        <div style="font-size: 12px; color: rgba(71,85,105,.95); font-weight: 800;">Email</div>
+                        <div style="font-weight: 900;">info@fantasticremovals.co.uk</div>
+                        <div style="font-size: 12px; color: rgba(71,85,105,.95); font-weight: 700;">We reply within 30 minutes</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card" style="padding: 16px; background: rgba(148,163,184,.10);">
+                    <div style="display:flex; gap: 12px; align-items:flex-start;">
+                      <div class="icon">⌁</div>
+                      <div>
+                        <div style="font-size: 12px; color: rgba(71,85,105,.95); font-weight: 800;">Based In</div>
+                        <div style="font-weight: 900;">London, United Kingdom</div>
+                        <div style="font-size: 12px; color: rgba(71,85,105,.95); font-weight: 700;">Covering the whole of the UK</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card" style="padding: 16px; background: rgba(148,163,184,.10);">
+                    <div style="display:flex; gap: 12px; align-items:flex-start;">
+                      <div class="icon">⏱</div>
+                      <div>
+                        <div style="font-size: 12px; color: rgba(71,85,105,.95); font-weight: 800;">Working Hours</div>
+                        <div style="font-weight: 900;">7 Days a Week</div>
+                        <div style="font-size: 12px; color: rgba(71,85,105,.95); font-weight: 700;">Mon–Sat 8am–8pm · Sun 9am–5pm</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-card">
+                <h3 style="font-family: var(--font-serif); margin: 0 0 14px;">Request Your Free Quote</h3>
+                <form data-quote-form="true" novalidate>
+                  <div class="form-grid cols-2">
+                    <div class="field">
+                      <label for="name">Full Name</label>
+                      <input id="name" name="name" placeholder="John Smith" autocomplete="name" />
+                      <div class="error" data-error-for="name"></div>
+                    </div>
+                    <div class="field">
+                      <label for="phone">Phone Number</label>
+                      <input id="phone" name="phone" type="tel" placeholder="07700 900000" autocomplete="tel" />
+                      <div class="error" data-error-for="phone"></div>
+                    </div>
+                  </div>
+
+                  <div class="form-grid cols-2" style="margin-top: 14px;">
+                    <div class="field">
+                      <label for="email">Email Address</label>
+                      <input id="email" name="email" type="email" placeholder="john@example.com" autocomplete="email" />
+                      <div class="error" data-error-for="email"></div>
+                    </div>
+                    <div class="field">
+                      <label for="moveType">Type of Move</label>
+                      <select id="moveType" name="moveType">
+                        <option value="">Select type</option>
+                        <option value="house">House Removal</option>
+                        <option value="office">Office Relocation</option>
+                        <option value="van">Man and Van</option>
+                        <option value="storage">Storage Only</option>
+                      </select>
+                      <div class="error" data-error-for="moveType"></div>
+                    </div>
+                  </div>
+
+                  <div class="form-grid cols-3" style="margin-top: 14px;">
+                    <div class="field">
+                      <label for="fromPostcode">Moving From</label>
+                      <input id="fromPostcode" name="fromPostcode" placeholder="e.g. SW1A 1AA" />
+                      <div class="error" data-error-for="fromPostcode"></div>
+                    </div>
+                    <div class="field">
+                      <label for="toPostcode">Moving To</label>
+                      <input id="toPostcode" name="toPostcode" placeholder="e.g. M1 1AA" />
+                      <div class="error" data-error-for="toPostcode"></div>
+                    </div>
+                    <div class="field">
+                      <label for="date">Est. Date</label>
+                      <input id="date" name="date" type="date" />
+                      <div class="error" data-error-for="date"></div>
+                    </div>
+                  </div>
+
+                  <div class="field" style="margin-top: 14px;">
+                    <label for="message">Additional Details (Optional)</label>
+                    <textarea id="message" name="message" placeholder="Tell us about any large items, access restrictions, etc."></textarea>
+                  </div>
+
+                  <button class="btn" type="submit" style="width:100%; margin-top: 16px; border-radius: 16px; height: 54px;">
+                    Get My Free Quote
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-grid">
+            <div>
+              <div class="brand" style="margin-bottom: 12px;">
+                <span class="brand-mark" style="width:32px;height:32px;border-radius:10px;">FR</span>
+                <span style="color:#fff;">Fantastic<b>Removals</b></span>
+              </div>
+              <p style="margin: 0; color: rgba(148,163,184,.9); font-size: 13px;">
+                Professional, reliable, and stress-free removals across London and the UK.
+              </p>
+            </div>
+
+            <div>
+              <h4>Services</h4>
+              <ul>
+                <li><a href="./services.html">House Removals</a></li>
+                <li><a href="./services.html">Office Relocation</a></li>
+                <li><a href="./services.html">Man and Van</a></li>
+                <li><a href="./services.html">Packing Services</a></li>
+                <li><a href="./services.html">Secure Storage</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4>Company</h4>
+              <ul>
+                <li><a href="./index.html">About Us</a></li>
+                <li><a href="./reviews.html">Customer Reviews</a></li>
+                <li><a href="./how-it-works.html">How it Works</a></li>
+                <li><a href="./faq.html">FAQ</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4>Contact</h4>
+              <ul>
+                <li>☎ 0203 404 4440</li>
+                <li>⌁ London, UK</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <p style="margin:0;">© <span data-year></span> Fantastic Removals. All rights reserved.</p>
+            <p style="margin:0;">Designed for reliability.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./assets/app.js"></script>
+  </body>
+</html>
+
